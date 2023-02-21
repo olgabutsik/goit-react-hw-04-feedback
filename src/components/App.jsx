@@ -39,6 +39,7 @@ export function App() {
           onLeaveFeedback={handleIncrement}
         />
       </Section>
+
       <Section title="Statistics">
         {total ? (
           <Statistics
